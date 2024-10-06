@@ -1,0 +1,66 @@
+body{
+	margin:5px 5px 0 5px;
+	padding: 0;
+	background: url(weathered-concrete.jpg);
+	background-size: cover;
+	text-align:start;
+}
+footer{
+	background: url(solid-navy-blue.jpg);
+	color: #ffffff;
+	display: flex;
+	padding: 20px;
+
+}
+div a{
+	text-decoration: none;
+	color: #ffffff;
+	opacity: 0.9;
+}
+div a:hover{
+	text-decoration: underline;
+}
+.submit{
+	width: 60px;
+	height: 40px;
+	background-color: #09ec2b;
+	color: #ffffff;
+	border:1px solid #ffffff;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	
+}
+form a{
+	text-decoration: none;
+	color: #ffffff;
+}
+ button:hover {
+	
+	background-color: hsl(149, 66%, 31%);
+ }
+	
+
+
+
+
+.youtub{
+	width: 3em;
+	width: 3em;
+	padding: 5px;
+	
+}
+.twitter{
+	width: 3em;
+	width: 3em;
+	padding: 5px;
+
+}
+
+
+.inst{
+	width: 3em;
+	width: 3em;
+	padding: 5px;
+
+}
+
