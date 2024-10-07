@@ -1,0 +1,93 @@
+body{
+	
+	padding: 0;
+	background: url(weathered-concrete.jpg);
+	background-size: cover;
+	
+	
+}
+.column{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.column1{
+	width: 32%;
+	height: 85%;
+	background-color:rgb(221, 221, 244);
+	border: 2px solid #000000;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+	border-radius: 15px;
+}
+.column2{
+	width: 32%;
+	height: 85%;
+	background-color:rgb(221, 221, 244);
+	border: 2px solid #000000;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+	border-radius: 15px;
+	
+}
+.column3{
+	width: 32%;
+	height: 85%;
+	background-color:rgb(221, 221, 244);
+	border: 2px solid #000000;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+	border-radius: 15px;
+	
+}
+.sem{
+	text-decoration: underline;
+}
+
+
+	
+
+
+
+
+
+
+footer{
+	background: url(solid-navy-blue.jpg);
+	color: #ffffff;
+	display: flex;
+	padding: 40px;
+	justify-content: space-between;
+
+}
+div a{
+	text-decoration: none;
+	color: #ffffff;
+	opacity: 0.9;
+}
+div a:hover{
+	text-decoration: underline;
+}
+.youtub{
+	width: 3em;
+	width: 3em;
+	padding: 5px;
+	
+}
+.twitter{
+	width: 3em;
+	width: 3em;
+	padding: 5px;
+
+}
+
+
+.inst{
+	width: 3em;
+	width: 3em;
+	padding: 5px;
+
+}
