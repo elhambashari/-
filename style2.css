@@ -5,21 +5,7 @@ body{
 	background-size: cover;
 	text-align:start;
 }
-footer{
-	background: url(solid-navy-blue.jpg);
-	color: #ffffff;
-	display: flex;
-	padding: 20px;
 
-}
-div a{
-	text-decoration: none;
-	color: #ffffff;
-	opacity: 0.9;
-}
-div a:hover{
-	text-decoration: underline;
-}
 .submit{
 	width: 60px;
 	height: 40px;
@@ -38,9 +24,34 @@ form a{
 	
 	background-color: hsl(149, 66%, 31%);
  }
-	
 
 
+
+
+ 
+ footer{
+	background: url(solid-navy-blue.jpg);
+	color: #ffffff;
+	display: flex;
+	padding: 40px;
+	justify-content: space-between;
+
+}
+div a{
+	text-decoration: none;
+	color: #ffffff;
+	opacity: 0.9;
+}
+div a:hover{
+	text-decoration: underline;
+}	
+form div>*{
+	display: flex;
+	flex-direction: column;
+}
+form div {
+	margin: 20px 0;
+}
 
 
 .youtub{
