@@ -12,7 +12,7 @@ body{
 }
 
 .column1{
-	width: 32%;
+	width: 50%;
 	height: 85%;
 	background-color:rgb(221, 221, 244);
 	border: 2px solid #000000;
@@ -22,7 +22,7 @@ body{
 	border-radius: 15px;
 }
 .column2{
-	width: 32%;
+	width: 50%;
 	height: 85%;
 	background-color:rgb(221, 221, 244);
 	border: 2px solid #000000;
@@ -33,7 +33,7 @@ body{
 	
 }
 .column3{
-	width: 32%;
+	width: 50%;
 	height: 85%;
 	background-color:rgb(221, 221, 244);
 	border: 2px solid #000000;
