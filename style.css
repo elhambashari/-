@@ -1,16 +1,15 @@
-*{
-	margin: 0;
-	
-	
-	
-}
+
 header{
 	display: flex;
 	justify-content: space-between;
 	background: rgb(202, 233, 239);
 	align-items: center;
 	padding: 0 12px;
+	position: sticky;
+	top: 0;
+	z-index: 2;
 }
+
 .name{
 	font-weight: bold;
 }
@@ -83,15 +82,17 @@ h2{
 
 }
 .par{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	text-align: justify;
+	font-size: 22px;
 }
 
 
 .mainfoto{
 	width: 85%;
 	height: 100%;
-	margin: 5px 0 5px 0;
+	margin: 10px 0 10px 0;
+	border-radius: 5px;
 	
 	
 }
@@ -133,6 +134,7 @@ footer{
 	display: flex;
 	padding: 40px;
 	justify-content: space-between;
+	
 
 }
 div a{
@@ -163,3 +165,13 @@ div a:hover{
 	padding: 5px;
 
 }
+
+/*@media screen and (max-witdth:1000px) {
+	header.column{display:flex;
+	flex-direction: column;}
+	main.column{display: flex;
+	flex-direction: column; }
+	footer.column{display: flex;
+	flex-direction: column;}
+	
+}/*

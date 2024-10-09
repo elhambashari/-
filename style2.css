@@ -1,9 +1,59 @@
-body{
+
+ header{
+	display: flex;
+	justify-content: space-between;
+	background: rgb(202, 233, 239);
+	align-items: center;
+	padding: 0 12px;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+	
+
+.name{
+	font-weight: bold;
+}
+nav{
+	margin-right: 40px;
+}
+.nav{
+	display: flex;
+	align-items: center;
+}
+.nav ul{
+	display: flex;
+	list-style-type: none;
+	
+}
+
+.nav  a{
+	text-decoration: none;
+	color: #000000;
+	padding: 14px;
+	
+}
+nav  a:hover{
+	color: rgb(69, 15, 64);
+	border: 3px solid rgb(168, 106, 225);
+	border-radius: 4px;
+	font-weight: bold;
+	
+}
+.logo img{
+	width: 60px;
+	height: 60px;
+	border-radius: 4px;
+	align-items: center;
+}
+ 
+ body{
 	margin:5px 5px 0 5px;
 	padding: 0;
 	background: url(weathered-concrete.jpg);
 	background-size: cover;
 	text-align:start;
+	
 }
 
 .submit{
@@ -35,6 +85,7 @@ form a{
 	display: flex;
 	padding: 40px;
 	justify-content: space-between;
+	
 
 }
 div a{
