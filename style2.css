@@ -48,7 +48,7 @@ nav  a:hover{
 }
  
  body{
-	margin:5px 5px 0 5px;
+	margin:10px 5px 0 5px;
 	padding: 0;
 	background: url(weathered-concrete.jpg);
 	background-size: cover;
@@ -79,15 +79,7 @@ form a{
 
 
  
- footer{
-	background: url(solid-navy-blue.jpg);
-	color: #ffffff;
-	display: flex;
-	padding: 40px;
-	justify-content: space-between;
-	
 
-}
 div a{
 	text-decoration: none;
 	color: #ffffff;
@@ -101,7 +93,19 @@ form div>*{
 	flex-direction: column;
 }
 form div {
-	margin: 20px 0;
+	margin: 35px 15px;
+	font-size: 20px;
+	
+}
+
+footer{
+	background: url(solid-navy-blue.jpg);
+	color: #ffffff;
+	display: flex;
+	padding: 40px;
+	justify-content: space-between;
+	
+
 }
 
 
