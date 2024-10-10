@@ -11,6 +11,7 @@ header{
 }
 .name{
 	font-weight: bold;
+	text-shadow: 3px 5px 2px rgb(158, 155, 155);
 }
 nav{
 	margin-right: 40px;
@@ -46,7 +47,7 @@ nav  a:hover{
 }
 
 body{
-	
+	margin: 0;
 	padding: 0;
 	background: url(weathered-concrete.jpg);
 	background-size: cover;
@@ -63,7 +64,7 @@ body{
 	height: 85%;
 	background-color:rgb(221, 221, 244);
 	border: 2px solid #000000;
-	padding: 20px;
+	padding: 30px;
 	margin: 10px;
 	text-align: center;
 	border-radius: 15px;
@@ -73,7 +74,7 @@ body{
 	height: 85%;
 	background-color:rgb(221, 221, 244);
 	border: 2px solid #000000;
-	padding: 20px;
+	padding: 30px;
 	margin: 10px;
 	text-align: center;
 	border-radius: 15px;
@@ -84,7 +85,7 @@ body{
 	height: 85%;
 	background-color:rgb(221, 221, 244);
 	border: 2px solid #000000;
-	padding: 20px;
+	padding: 30px;
 	margin: 10px;
 	text-align: center;
 	border-radius: 15px;
@@ -93,6 +94,8 @@ body{
 .sem{
 	text-decoration: underline;
 	color: #710f71;
+	padding: 15px;
+	margin: 10px;
 }
 
 

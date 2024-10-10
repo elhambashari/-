@@ -13,6 +13,7 @@
 
 .name{
 	font-weight: bold;
+	text-shadow: 3px 5px 2px rgb(158, 155, 155);
 }
 nav{
 	margin-right: 40px;
@@ -48,32 +49,55 @@ nav  a:hover{
 }
  
  body{
-	margin:10px 5px 0 5px;
+	margin: 0;
 	padding: 0;
 	background: url(weathered-concrete.jpg);
 	background-size: cover;
 	text-align:start;
 	
 }
+input:focus{
+	background-color: rgb(240, 240, 202);
 
-.submit{
-	width: 60px;
-	height: 40px;
-	background-color: #09ec2b;
+}
+textarea{
+	width: 15%;
+	min-height: 80px;
+}
+
+
+
+button{
+	width: 100px;
+	height: 60px;
+	background-color: #0ba222;
 	color: #0f0303;
-	border:1px solid #ffffff;
-	border-radius: 5px;
+	border:2px solid #ffffff;
+	border-radius: 8px;
 	margin-bottom: 10px;
+	margin-left: 10px;
+	box-shadow:  0.4em 0.3em rgb(2, 76, 2);
+	
+	
+	
+	
 	
 }
 form a{
 	text-decoration: none;
 	color: #ffffff;
+	
 }
  button:hover {
 	
 	background-color: hsl(149, 66%, 31%);
+	font-weight: bolder;
+	
+
  }
+
+
+
 
 
 
@@ -83,7 +107,7 @@ form a{
 div a{
 	text-decoration: none;
 	color: #ffffff;
-	opacity: 0.9;
+	
 }
 div a:hover{
 	text-decoration: underline;
@@ -93,7 +117,7 @@ form div>*{
 	flex-direction: column;
 }
 form div {
-	margin: 35px 15px;
+	margin: 15px 15px;
 	font-size: 20px;
 	
 }
@@ -129,4 +153,6 @@ footer{
 	padding: 5px;
 
 }
+
+
 
