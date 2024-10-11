@@ -5,6 +5,8 @@
 	background: rgb(202, 233, 239);
 	align-items: center;
 	padding: 0 12px;
+	min-height: 130px;
+	font-size: 22px;
 	position: sticky;
 	top: 0;
 	z-index: 2;
@@ -42,8 +44,8 @@ nav  a:hover{
 	
 }
 .logo img{
-	width: 60px;
-	height: 60px;
+	width: 70px;
+	height: 70px;
 	border-radius: 4px;
 	align-items: center;
 }
@@ -55,14 +57,32 @@ nav  a:hover{
 	background-size: cover;
 	text-align:start;
 	
+	
 }
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+	
+	
+	
+
+}
+#form{
+	width: 100%;
+	height: 90%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+}
+
 input:focus{
 	background-color: rgb(240, 240, 202);
 
 }
 textarea{
-	width: 15%;
-	min-height: 80px;
+	width: 40%;
+	min-height: 100px;
 }
 
 
@@ -96,6 +116,17 @@ form a{
 
  }
 
+ 
+ .foto{
+	width: 90%;
+	height: 70%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5%;
+	box-shadow: 20px 15px 40px rgba(4, 88, 61, 0.5);
+	
+
+ }
 
 
 
@@ -112,14 +143,19 @@ div a{
 div a:hover{
 	text-decoration: underline;
 }	
-form div>*{
+.form div>*{
 	display: flex;
 	flex-direction: column;
 }
-form div {
-	margin: 15px 15px;
-	font-size: 20px;
+
 	
+
+
+
+
+
+::placeholder{
+	opacity: 0.4;
 }
 
 footer{

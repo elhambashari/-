@@ -5,6 +5,8 @@ header{
 	background: rgb(202, 233, 239);
 	align-items: center;
 	padding: 0 12px;
+	min-height: 130px;
+	font-size: 22px;
 	position: sticky;
 	top: 0;
 	z-index: 2;
@@ -40,8 +42,8 @@ nav  a:hover{
 	
 }
 .logo img{
-	width: 60px;
-	height: 60px;
+	width: 70px;
+	height: 70px;
 	border-radius: 4px;
 	align-items: center;
 }
@@ -51,6 +53,8 @@ body{
 	padding: 0;
 	background: url(weathered-concrete.jpg);
 	background-size: cover;
+	
+	
 	
 	
 }
@@ -68,6 +72,7 @@ body{
 	margin: 10px;
 	text-align: center;
 	border-radius: 15px;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 .column2{
 	width: 50%;
@@ -78,6 +83,7 @@ body{
 	margin: 10px;
 	text-align: center;
 	border-radius: 15px;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 	
 }
 .column3{
@@ -89,6 +95,7 @@ body{
 	margin: 10px;
 	text-align: center;
 	border-radius: 15px;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 	
 }
 .sem{
@@ -98,7 +105,9 @@ body{
 	margin: 10px;
 }
 
-
+h2{
+	text-shadow: 1px 1px 5px rgb(117, 116, 116);
+}
 	
 
 
