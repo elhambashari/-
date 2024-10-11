@@ -68,13 +68,13 @@ main{
 .container{
 	
 	width: 60%;
-	height: 90%;
+	height: 80%;
 	border: 10px solid rgb(221, 123, 113);
 	border-radius: 6px;
 	background: rgb(161, 159, 159);
 	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	box-shadow: 10px 10px 10px rgb(101, 70, 12);
 
 }
@@ -111,12 +111,12 @@ main{
   }
   
   .animation{
-	width: 100px;
-	height: 100px;
-	border-top-left-radius: 70%;
-	border-bottom-right-radius: 70%;
+	width: 80px;
+	height: 80px;
+	border-top-left-radius: 90%;
+	border-bottom-right-radius: 90%;
 	position: relative;
-	background-color: rgb(11, 154, 202);
+	background-color: rgb(171, 210, 222);
 	animation-name: example;
 	animation-duration: 4s;
   }
@@ -134,12 +134,12 @@ main{
   }
   
   .animation2{
-	width: 100px;
-	height: 100px;
-	border-top-left-radius: 70%;
-	border-bottom-right-radius: 70%;
+	width: 80px;
+	height: 80px;
+	border-top-left-radius: 90%;
+	border-bottom-right-radius: 90%;
 	position: relative;
-	background-color: rgb(11, 154, 202);
+	background-color: rgb(171, 210, 222);
 	animation-name: example;
 	animation-duration: 4s;
   }
