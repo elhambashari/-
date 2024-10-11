@@ -1,0 +1,193 @@
+
+header{
+	display: flex;
+	justify-content: space-between;
+	background: rgb(202, 233, 239);
+	align-items: center;
+	padding: 0 12px;
+	min-height: 130px;
+	font-size: 22px;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+body{
+	
+	margin: 0;
+	padding: 0;
+	background: url(weathered-concrete.jpg);
+	background-size: cover;
+	text-align:start;
+		
+		
+}
+
+
+.name{
+	font-weight: bold;
+	text-shadow: 4px 4px 2px rgb(158, 155, 155);
+}
+nav{
+	margin-right: 40px;
+}
+.nav{
+	display: flex;
+	align-items: center;
+}
+.nav ul{
+	display: flex;
+	list-style-type: none;
+	
+}
+
+.nav  a{
+	text-decoration: none;
+	color: #000000;
+	padding: 14px;
+	
+}
+nav  a:hover{
+	color: rgb(69, 15, 64);
+	border: 3px solid rgb(168, 106, 225);
+	border-radius: 4px;
+	font-weight: bold;
+	
+}
+.logo img{
+	width: 70px;
+	height: 70px;
+	border-radius: 4px;
+	align-items: center;
+	
+}
+main{
+	display: flex;
+	justify-content: center;
+	
+}
+.container{
+	
+	width: 60%;
+	height: 90%;
+	border: 10px solid rgb(221, 123, 113);
+	border-radius: 6px;
+	background: rgb(161, 159, 159);
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px 10px rgb(101, 70, 12);
+
+}
+.aboutus{
+	text-shadow: 3px 2px 3px #808080;
+}
+.imgmain{
+	width: 70%;
+	height:50%;
+	margin-top: 10px;
+
+	
+
+}
+.paragraf{
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	align-items: center;
+	padding: 5px;
+}
+
+
+@keyframes exemple {
+	0%  {background-color:rgb(50, 51, 53); bottom: 500px; top:0px;}
+	
+	25% {background-color:rgb(81, 89, 92); bottom:200px ; top:200px;}
+	
+	50% {background-color:rgb(128, 139, 124); bottom:150px; top:350px;}
+	75% {background-color:rgb(167, 167, 149); bottom:0px; top:500px;}
+	
+	100% {background-color:#ede8db; left:0px; top:0px;}
+	
+  }
+  
+  .animation{
+	width: 100px;
+	height: 100px;
+	border-top-left-radius: 70%;
+	border-bottom-right-radius: 70%;
+	position: relative;
+	background-color: rgb(11, 154, 202);
+	animation-name: example;
+	animation-duration: 4s;
+  }
+
+  @keyframes example {
+	0%  {background-color:rgb(50, 51, 53); bottom: 500px; top:0px;}
+	
+	25% {background-color:rgb(81, 89, 92); bottom:200px ; top:200px;}
+	
+	50% {background-color:rgb(128, 139, 124); bottom:150px; top:350px;}
+	75% {background-color:rgb(167, 167, 149); bottom:0px; top:500px;}
+	
+	100% {background-color:#ede8db; left:0px; top:0px;}
+	
+  }
+  
+  .animation2{
+	width: 100px;
+	height: 100px;
+	border-top-left-radius: 70%;
+	border-bottom-right-radius: 70%;
+	position: relative;
+	background-color: rgb(11, 154, 202);
+	animation-name: example;
+	animation-duration: 4s;
+  }
+h3{
+	opacity: 0.6;
+}
+
+
+
+
+
+
+
+footer{
+	background: url(solid-navy-blue.jpg);
+	color: #ffffff;
+	display: flex;
+	padding: 40px;
+	justify-content: space-between;
+	
+
+}
+div a{
+	text-decoration: none;
+	color: #ffffff;
+	opacity: 0.9;
+}
+div a:hover{
+	text-decoration: underline;
+}
+.youtub{
+	width: 3em;
+	width: 3em;
+	padding: 5px;
+	
+	
+}
+.twitter{
+	width: 3em;
+	width: 3em;
+	padding: 5px;
+
+}
+
+
+.inst{
+	width: 3em;
+	width: 3em;
+	padding: 5px;
+
+}
