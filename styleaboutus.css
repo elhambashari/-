@@ -127,9 +127,9 @@ main{
 	25% {background-color:rgb(81, 89, 92); bottom:200px ; top:200px;}
 	
 	50% {background-color:rgb(128, 139, 124); bottom:150px; top:350px;}
-	75% {background-color:rgb(167, 167, 149); bottom:0px; top:500px;}
+	75% {background-color:rgb(195, 195, 183); bottom:0px; top:500px;}
 	
-	100% {background-color:#ede8db; left:0px; top:0px;}
+	100% {background-color:#e8e6e0; left:0px; top:0px;}
 	
   }
   
