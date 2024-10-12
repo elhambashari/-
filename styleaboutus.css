@@ -60,6 +60,12 @@ nav  a:hover{
 	align-items: center;
 	
 }
+
+.menu-icon{
+	display: none;
+}
+
+
 main{
 	display: flex;
 	justify-content: center;
@@ -190,4 +196,36 @@ div a:hover{
 	width: 3em;
 	padding: 5px;
 
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px)
+{
+	.nav{
+		display: none;
+		
+		}
+		.menu-icon{
+			display: flex;
+			justify-content: center;
+		}
+	.container{
+		display: block;
+		justify-content: center;
+		width: 80%;
+	}
+	
+	footer{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	
+	}
 }

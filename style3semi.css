@@ -48,6 +48,10 @@ nav  a:hover{
 	align-items: center;
 }
 
+.menu-icon{
+	display: none;
+}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -151,3 +155,39 @@ div a:hover{
 	padding: 5px;
 
 }
+
+
+
+
+
+
+@media screen and (max-width:900px)
+{
+	.nav{
+		display: none;
+		
+		}
+		.menu-icon{
+			display: block;
+		}
+		.column{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		footer{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		
+		}
+	}
+
+
+
+
+
+	

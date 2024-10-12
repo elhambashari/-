@@ -49,13 +49,17 @@ nav  a:hover{
 	border-radius: 20%;
 	align-items: center;
 }
+
+.menu-icon{
+	display: none;
+}
  
  body{
 	margin: 0;
 	padding: 0;
 	background: url(weathered-concrete.jpg);
 	background-size: cover;
-	text-align:start;
+	
 	
 	
 }
@@ -68,13 +72,16 @@ main{
 	
 
 }
-#form{
+.form{
 	width: 100%;
 	margin-top: 10px;
 	margin-bottom: 15px;
 	margin-left: 10px;
 }
 
+
+	
+	
 input:focus{
 	background-color: rgb(240, 240, 202);
 
@@ -94,7 +101,7 @@ button{
 	border:2px solid #ffffff;
 	border-radius: 8px;
 	margin-bottom: 10px;
-	margin-left: 10px;
+	margin-top: 10px;
 	box-shadow:  0.4em 0.3em rgb(2, 76, 2);
 	
 	
@@ -190,3 +197,37 @@ footer{
 
 
 
+
+
+
+
+
+@media screen and (max-width:900px)
+{
+	.nav{
+		display: none;
+		
+		}
+		.menu-icon{
+			display: block;
+		}
+		main{
+			display: flex;
+			flex-direction: column;
+		}
+
+
+	
+		footer{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		
+		}
+	}
+					
+
+	
+
+	
