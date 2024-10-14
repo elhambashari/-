@@ -50,10 +50,7 @@ nav  a:hover{
 	align-items: center;
 }
 
-.menu-icon{
-	display: none;
-}
- 
+
  body{
 	margin: 0;
 	padding: 0;
@@ -204,13 +201,32 @@ footer{
 
 @media screen and (max-width:900px)
 {
-	.nav{
-		display: none;
-		
-		}
-		.menu-icon{
-			display: block;
-		}
+	header{
+		max-height: 200px;
+	}
+		.nav ul{
+			display:flex;
+			flex-direction: column;
+			
+			
+			}
+			.nav ul li{
+				padding: 10px;
+				
+				font-weight: bold;
+				
+			}
+			.logo img{
+				display: none;
+			}
+			.name{
+				display:inline;
+				color: rgb(203, 39, 203);
+			}
+			.menu-icon{
+				display:none;
+			}
+	
 		main{
 			display: flex;
 			flex-direction: column;

@@ -53,9 +53,7 @@ nav  a:hover{
 	align-items: center;
 	
 }
-.menu-icon{
-	display: none;
-}
+
 .vest{
 	font-family: Arial, Helvetica, sans-serif;
 	color: #05053e;
@@ -185,13 +183,30 @@ div a:hover{
 
 }
 @media screen and (max-width:900px)
-{
-	.nav{
-		display: none;
+{     header{
+	max-height: 200px;
+}
+	.nav ul{
+		display:flex;
+		flex-direction: column;
+		
 		
 		}
+		.nav ul li{
+			padding: 10px;
+			
+			font-weight: bold;
+			
+		}
+		.logo img{
+			display: none;
+		}
+		.name{
+			display:inline;
+			color: rgb(203, 39, 203);
+		}
 		.menu-icon{
-			display: block;
+			display:none;
 		}
 
 	.vestost{

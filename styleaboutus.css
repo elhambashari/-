@@ -61,9 +61,6 @@ nav  a:hover{
 	
 }
 
-.menu-icon{
-	display: none;
-}
 
 
 main{
@@ -207,14 +204,32 @@ div a:hover{
 
 @media screen and (max-width:900px)
 {
-	.nav{
-		display: none;
-		
-		}
-		.menu-icon{
-			display: flex;
-			justify-content: center;
-		}
+	header{
+		max-height: 200px;
+	}
+		.nav ul{
+			display:flex;
+			flex-direction: column;
+			
+			
+			}
+			.nav ul li{
+				padding: 10px;
+				
+				font-weight: bold;
+				
+			}
+			.logo img{
+				display: none;
+			}
+			.name{
+				display:inline;
+				color: rgb(203, 39, 203);
+			}
+			.menu-icon{
+				display:none;
+			}
+	
 	.container{
 		display: block;
 		justify-content: center;
