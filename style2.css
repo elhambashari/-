@@ -121,9 +121,10 @@ form a{
 
  
  .foto{
-	width: 90%;
-	margin-top: 20px;
+	width: 75%;
+	margin-top: 60px;
 	margin-bottom: 20px;
+	margin-left: 30px;
 	border-radius: 5%;
 	box-shadow: 20px 15px 40px rgba(4, 88, 61, 0.5);
 	
@@ -148,10 +149,11 @@ div a:hover{
 .form div>*{
 	display: flex;
 	flex-direction: column;
-}
-
 	
-
+}
+form{
+	font-size: 25px;
+}
 
 
 
