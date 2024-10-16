@@ -83,6 +83,15 @@ input:focus{
 	background-color: rgb(240, 240, 202);
 
 }
+
+.input:valid {
+    border: 1px solid green;
+}
+
+.input:invalid {
+    border: 1px solid red;
+}
+
 textarea{
 	width: 40%;
 	min-height: 100px;

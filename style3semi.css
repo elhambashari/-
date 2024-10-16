@@ -105,10 +105,12 @@ body{
 	color: #710f71;
 	padding: 15px;
 	margin: 10px;
+	font-size: 23px;
 }
 
 h2{
 	text-shadow: 1px 1px 5px rgb(117, 116, 116);
+	font-size: 22px;
 }
 	
 

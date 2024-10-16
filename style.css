@@ -103,11 +103,9 @@ h2{
 	border-radius: 5px;
 	margin-right: 10px;
 	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-	  
-	
-	
 	
 }
+
 
 button{
 	width: 120px;
@@ -117,10 +115,39 @@ button{
 	border-radius: 10px;
 	margin-bottom: 15px;
 	margin-top: 15px;
-	box-shadow: 0.5em 0.3em rgb(177, 175, 175)
-	
-	
+	box-shadow: 0.5em 0.3em rgb(177, 175, 175);
+	animation: wiggle 2s 6;
+		
 }
+
+  
+  @keyframes wiggle {
+	0%, 7% {
+	  transform: rotateZ(0);
+	}
+	15% {
+	  transform: rotateZ(-15deg);
+	}
+	20% {
+	  transform: rotateZ(10deg);
+	}
+	25% {
+	  transform: rotateZ(-10deg);
+	}
+	30% {
+	  transform: rotateZ(6deg);
+	}
+	35% {
+	  transform: rotateZ(-4deg);
+	}
+	40%, 100% {
+	  transform: rotateZ(0);
+	}
+  }
+  
+
+
+
 section a{
 	text-decoration: none;
 	color: #ffffff;
@@ -205,17 +232,14 @@ div a:hover{
 			display:inline;
 			color: rgb(203, 39, 203);
 		}
-		.menu-icon{
-			display:none;
-		}
-
+			
 	.vestost{
 		display: flex;
 		flex-direction: column;
 	}	
 	.mainfoto{
 		margin-top: 10px;
-		margin-left: 20px;
+		
 		
 }
 footer{
