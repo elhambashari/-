@@ -152,9 +152,7 @@ div a{
 	color: #ffffff;
 	
 }
-div a:hover{
-	text-decoration: underline;
-}	
+	
 .form div>*{
 	display: flex;
 	flex-direction: column;
@@ -234,9 +232,7 @@ footer{
 				display:inline;
 				color: rgb(203, 39, 203);
 			}
-			.menu-icon{
-				display:none;
-			}
+			
 	
 		main{
 			display: flex;

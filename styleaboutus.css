@@ -72,7 +72,7 @@ main{
 	
 	width: 60%;
 	height: 80%;
-	border: 10px solid rgb(65, 181, 165);
+	border: 8px solid rgb(65, 181, 165);
 	border-radius: 6px;
 	background: rgb(222, 219, 219);
 	text-align: center;
@@ -146,6 +146,22 @@ h3{
 	animation-name: example;
 	animation-duration: 4s;
   }
+
+  @keyframes example {
+	0%  {background-color:rgb(50, 51, 53); bottom: 500px; top:0px;}
+	
+	25% {background-color:rgb(81, 89, 92); bottom:200px ; top:200px;}
+	
+	50% {background-color:rgb(128, 139, 124); bottom:150px; top:350px;}
+	75% {background-color:rgb(195, 195, 183); bottom:0px; top:500px;}
+	
+	100% {background-color:#e8e6e0; left:0px; top:0px;}
+	
+  }
+  
+
+
+
 h3{
 	opacity: 0.6;
 }
@@ -226,10 +242,7 @@ div a:hover{
 				display:inline;
 				color: rgb(203, 39, 203);
 			}
-			.menu-icon{
-				display:none;
-			}
-	
+			
 	.container{
 		display: block;
 		justify-content: center;

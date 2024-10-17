@@ -44,6 +44,7 @@ nav  a:hover{
 	border: 3px solid rgb(168, 106, 225);
 	border-radius: 4px;
 	font-weight: bold;
+	box-shadow: 4px 4px 5px rgb(130, 48, 130);
 	
 }
 .logo img{

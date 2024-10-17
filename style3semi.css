@@ -185,10 +185,7 @@ div a:hover{
 				display:inline;
 				color: rgb(203, 39, 203);
 			}
-			.menu-icon{
-				display:none;
-			}
-	
+			
 		.column{
 			display: flex;
 			flex-direction: column;
