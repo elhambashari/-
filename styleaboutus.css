@@ -290,7 +290,10 @@ div a:hover{
 	.container{
 		display: block;
 		justify-content: center;
-		width: 80%;
+		width:auto;
+		align-items: center;
+		justify-content: center;
+		margin-left: 40px;
 	}
 	
 	footer{
@@ -301,4 +304,8 @@ div a:hover{
 		min-width: max-content;
 	
 	}
+	h3{
+		max-width:max-content;
+	}
 }
+

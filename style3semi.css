@@ -63,11 +63,13 @@ body{
 .column{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	margin-bottom: 15px;
+	
 }
 
 .column1{
-	width: 50%;
-	height: 85%;
+	width: 60%;
+	height: 90%;
 	background-color:rgb(221, 221, 244);
 	border: 2px solid #000000;
 	padding: 30px;
@@ -76,23 +78,25 @@ body{
 	align-items: center;
 	text-align: center;
 	border-radius: 15px;
+	margin-bottom: 15px;
 	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 .column2{
-	width: 50%;
-	height: 85%;
+	width: 60%;
+	height: 90%;
 	background-color:rgb(221, 221, 244);
 	border: 2px solid #000000;
 	padding: 30px;
 	margin: 10px;
 	text-align: center;
 	border-radius: 15px;
+	margin-bottom: 15px;
 	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 	
 }
 .column3{
-	width: 50%;
-	height: 85%;
+	width: 60%;
+	height: 90%;
 	background-color:rgb(221, 221, 244);
 	border: 2px solid #000000;
 	padding: 30px;
@@ -100,6 +104,7 @@ body{
 	text-align: center;
 	border-radius: 15px;
 	align-items: center;
+	margin-bottom: 15px;
 	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 	
 }
@@ -238,7 +243,9 @@ div a:hover{
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
+			
 		}
+		
 		
 
 		footer{
@@ -249,7 +256,11 @@ div a:hover{
 			min-width: max-content;
 		
 		}
+		h3{
+			max-width:max-content;
+		}
 	}
+	
 
 	
 
