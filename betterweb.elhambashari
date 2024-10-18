@@ -1,0 +1,17 @@
+Betterweb- (Elham Bashari)
+Jag har skapat en hemsidan för årliga IT conference I Göteborg. I min första sidan det finns en header med hemsidan namn, nav bar och en logo. Jag har lagt header position I sticky läge för att när användare scrolla ner sidan, header kommer ner och användare kan se och nå den hela tiden.
+Jag har använt display flex(main) för att bild och text kan vara I en rad. Och jag har använt en footer med lite kontakt information I längst ner I min sidan som har display flex också.
+I andra sidan jag har använt samma header och footer med olika main. I main jag har skapat 3 column med display grid som varje column har lika utrymme.
+I den tredje sidan jag har använt form och en bild med display flex som kan vara I en row.
+I min sista sidan jag har skapat en box som innehåler en bild och text och finns I center av sidan med hjälp av display flex och justify content: center.
+
+Code review:
+Jag har gjort en code review med Malahat, Sally, Parya, Shweta och Albin. Jag hade förslag för min main del I första sidan och ha en större font med form I min tredije sidan. Jag hade lagt en menu icon I min header efter responsive, men de gav mig förslag att ta bort den och ändring med navi bar.
+
+
+https://github.com/elhambashari/-.git
+
+
+Gotenburg conference (https://elhambashari.github.io)
+
+
