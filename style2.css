@@ -252,5 +252,49 @@ footer{
 					
 
 	
+@media screen and (max-width:450px)
+{
+	header{
+		max-height: 200px;
+		min-width: max-content;
+	}
+		.nav ul{
+			display:flex;
+			flex-direction: column;
+			
+			
+			}
+			.nav ul li{
+				padding: 10px;
+				
+				font-weight: bold;
+				
+			}
+			.logo img{
+				display: none;
+			}
+			.name{
+				display:inline;
+				color: rgb(203, 39, 203);
+			}
+			
+	
+		main{
+			display: flex;
+			flex-direction: column;
+		}
+
+
+	
+		footer{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			min-width: max-content;
+		
+		}
+	}
+	
 
 	
